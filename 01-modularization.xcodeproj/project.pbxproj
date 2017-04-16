@@ -7,25 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0424E2231EA2757800E08840 /* RevanTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0424E21E1EA2757800E08840 /* RevanTabBarController.m */; };
+		0424E2271EA275F900E08840 /* RevanTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0424E2261EA275F900E08840 /* RevanTabBar.m */; };
+		0424E22A1EA2795900E08840 /* RevanMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0424E2291EA2795900E08840 /* RevanMiddleView.m */; };
+		0424E22C1EA2798A00E08840 /* RevanMiddleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0424E22B1EA2798A00E08840 /* RevanMiddleView.xib */; };
+		044BFF3F1EA34FC5002FDD18 /* CALayer+RevanLayerAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 044BFF3E1EA34FC5002FDD18 /* CALayer+RevanLayerAimate.m */; };
+		044BFF431EA360DA002FDD18 /* UIView+RevanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044BFF421EA360DA002FDD18 /* UIView+RevanView.m */; };
+		044BFF461EA36A88002FDD18 /* RevanNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 044BFF451EA36A88002FDD18 /* RevanNavigationBar.m */; };
+		044BFF491EA38A45002FDD18 /* RevanNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044BFF481EA38A45002FDD18 /* RevanNavigationViewController.m */; };
+		044BFF4C1EA38D5D002FDD18 /* UIImage+RevanImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 044BFF4B1EA38D5D002FDD18 /* UIImage+RevanImage.m */; };
+		044BFF511EA3AC64002FDD18 /* RevanTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044BFF501EA3AC64002FDD18 /* RevanTestViewController.m */; };
+		044BFF541EA3AE15002FDD18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044BFF521EA3AE15002FDD18 /* Main.storyboard */; };
 		04A2C5C31E9A6FFF00A36F54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A2C5C21E9A6FFF00A36F54 /* main.m */; };
-		04A2C5CC1E9A6FFF00A36F54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A2C5CA1E9A6FFF00A36F54 /* Main.storyboard */; };
 		04A2C5CE1E9A6FFF00A36F54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A2C5CD1E9A6FFF00A36F54 /* Assets.xcassets */; };
 		04A2C5D11E9A6FFF00A36F54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A2C5CF1E9A6FFF00A36F54 /* LaunchScreen.storyboard */; };
-		04A2C5E11E9A706600A36F54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A2C5DB1E9A706600A36F54 /* ViewController.m */; };
 		04A2C5E21E9A706600A36F54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A2C5DF1E9A706600A36F54 /* AppDelegate.m */; };
+		B4C57189D2C1717AF4E39527 /* libPods-01-modularization.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C23866D3A46567DB4CA550 /* libPods-01-modularization.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0424E21D1EA2757800E08840 /* RevanTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RevanTabBarController.h; sourceTree = "<group>"; };
+		0424E21E1EA2757800E08840 /* RevanTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RevanTabBarController.m; sourceTree = "<group>"; };
+		0424E2251EA275F900E08840 /* RevanTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RevanTabBar.h; sourceTree = "<group>"; };
+		0424E2261EA275F900E08840 /* RevanTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RevanTabBar.m; sourceTree = "<group>"; };
+		0424E2281EA2795900E08840 /* RevanMiddleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RevanMiddleView.h; sourceTree = "<group>"; };
+		0424E2291EA2795900E08840 /* RevanMiddleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RevanMiddleView.m; sourceTree = "<group>"; };
+		0424E22B1EA2798A00E08840 /* RevanMiddleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RevanMiddleView.xib; sourceTree = "<group>"; };
+		044BFF3D1EA34FC5002FDD18 /* CALayer+RevanLayerAimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+RevanLayerAimate.h"; sourceTree = "<group>"; };
+		044BFF3E1EA34FC5002FDD18 /* CALayer+RevanLayerAimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+RevanLayerAimate.m"; sourceTree = "<group>"; };
+		044BFF401EA35198002FDD18 /* revanBaseModuleManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = revanBaseModuleManger.h; path = "01-modularization/Classes/Tools/revanBaseModuleManger.h"; sourceTree = SOURCE_ROOT; };
+		044BFF411EA360DA002FDD18 /* UIView+RevanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RevanView.h"; sourceTree = "<group>"; };
+		044BFF421EA360DA002FDD18 /* UIView+RevanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RevanView.m"; sourceTree = "<group>"; };
+		044BFF441EA36A88002FDD18 /* RevanNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RevanNavigationBar.h; sourceTree = "<group>"; };
+		044BFF451EA36A88002FDD18 /* RevanNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RevanNavigationBar.m; sourceTree = "<group>"; };
+		044BFF471EA38A45002FDD18 /* RevanNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RevanNavigationViewController.h; sourceTree = "<group>"; };
+		044BFF481EA38A45002FDD18 /* RevanNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RevanNavigationViewController.m; sourceTree = "<group>"; };
+		044BFF4A1EA38D5D002FDD18 /* UIImage+RevanImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RevanImage.h"; sourceTree = "<group>"; };
+		044BFF4B1EA38D5D002FDD18 /* UIImage+RevanImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RevanImage.m"; sourceTree = "<group>"; };
+		044BFF4F1EA3AC64002FDD18 /* RevanTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RevanTestViewController.h; sourceTree = "<group>"; };
+		044BFF501EA3AC64002FDD18 /* RevanTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RevanTestViewController.m; sourceTree = "<group>"; };
+		044BFF531EA3AE15002FDD18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04A2C5BE1E9A6FFF00A36F54 /* 01-modularization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-modularization.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A2C5C21E9A6FFF00A36F54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		04A2C5CB1E9A6FFF00A36F54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04A2C5CD1E9A6FFF00A36F54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04A2C5D01E9A6FFF00A36F54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04A2C5D21E9A6FFF00A36F54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04A2C5DA1E9A706600A36F54 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04A2C5DB1E9A706600A36F54 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		04A2C5DE1E9A706600A36F54 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04A2C5DF1E9A706600A36F54 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		54D4F9F8EC216D4B303180C2 /* Pods-01-modularization.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01-modularization.release.xcconfig"; path = "Pods/Target Support Files/Pods-01-modularization/Pods-01-modularization.release.xcconfig"; sourceTree = "<group>"; };
+		D5C23866D3A46567DB4CA550 /* libPods-01-modularization.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-01-modularization.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F43FB3B55575F9C3476A8F23 /* Pods-01-modularization.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01-modularization.debug.xcconfig"; path = "Pods/Target Support Files/Pods-01-modularization/Pods-01-modularization.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +64,101 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4C57189D2C1717AF4E39527 /* libPods-01-modularization.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0424E21B1EA274C200E08840 /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				0424E21C1EA2757800E08840 /* Controllers */,
+				0424E2211EA2757800E08840 /* Model */,
+				0424E2221EA2757800E08840 /* Views */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		0424E21C1EA2757800E08840 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0424E21D1EA2757800E08840 /* RevanTabBarController.h */,
+				0424E21E1EA2757800E08840 /* RevanTabBarController.m */,
+				044BFF471EA38A45002FDD18 /* RevanNavigationViewController.h */,
+				044BFF481EA38A45002FDD18 /* RevanNavigationViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0424E2211EA2757800E08840 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0424E2221EA2757800E08840 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0424E2251EA275F900E08840 /* RevanTabBar.h */,
+				0424E2261EA275F900E08840 /* RevanTabBar.m */,
+				0424E2281EA2795900E08840 /* RevanMiddleView.h */,
+				0424E2291EA2795900E08840 /* RevanMiddleView.m */,
+				0424E22B1EA2798A00E08840 /* RevanMiddleView.xib */,
+				044BFF441EA36A88002FDD18 /* RevanNavigationBar.h */,
+				044BFF451EA36A88002FDD18 /* RevanNavigationBar.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		044BFF3A1EA34F27002FDD18 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				044BFF3B1EA34F7B002FDD18 /* BaseModule */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		044BFF3B1EA34F7B002FDD18 /* BaseModule */ = {
+			isa = PBXGroup;
+			children = (
+				044BFF401EA35198002FDD18 /* revanBaseModuleManger.h */,
+				044BFF3C1EA34F7B002FDD18 /* Category */,
+			);
+			path = BaseModule;
+			sourceTree = "<group>";
+		};
+		044BFF3C1EA34F7B002FDD18 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				044BFF3D1EA34FC5002FDD18 /* CALayer+RevanLayerAimate.h */,
+				044BFF3E1EA34FC5002FDD18 /* CALayer+RevanLayerAimate.m */,
+				044BFF411EA360DA002FDD18 /* UIView+RevanView.h */,
+				044BFF421EA360DA002FDD18 /* UIView+RevanView.m */,
+				044BFF4A1EA38D5D002FDD18 /* UIImage+RevanImage.h */,
+				044BFF4B1EA38D5D002FDD18 /* UIImage+RevanImage.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		044BFF4E1EA3AC41002FDD18 /* TestVC */ = {
+			isa = PBXGroup;
+			children = (
+				044BFF4F1EA3AC64002FDD18 /* RevanTestViewController.h */,
+				044BFF501EA3AC64002FDD18 /* RevanTestViewController.m */,
+			);
+			path = TestVC;
+			sourceTree = "<group>";
+		};
 		04A2C5B51E9A6FFF00A36F54 = {
 			isa = PBXGroup;
 			children = (
 				04A2C5C01E9A6FFF00A36F54 /* 01-modularization */,
 				04A2C5BF1E9A6FFF00A36F54 /* Products */,
+				841DCE85CAFD8493475B7B57 /* Pods */,
+				F0589CA4949B96F52F949F09 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,7 +182,7 @@
 		04A2C5C11E9A6FFF00A36F54 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				04A2C5CA1E9A6FFF00A36F54 /* Main.storyboard */,
+				044BFF521EA3AE15002FDD18 /* Main.storyboard */,
 				04A2C5CD1E9A6FFF00A36F54 /* Assets.xcassets */,
 				04A2C5CF1E9A6FFF00A36F54 /* LaunchScreen.storyboard */,
 				04A2C5D21E9A6FFF00A36F54 /* Info.plist */,
@@ -79,28 +194,12 @@
 		04A2C5D81E9A706500A36F54 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				04A2C5D91E9A706600A36F54 /* Controllers */,
-				04A2C5DC1E9A706600A36F54 /* Model */,
+				0424E21B1EA274C200E08840 /* MainModule */,
 				04A2C5DD1E9A706600A36F54 /* Others */,
-				04A2C5E01E9A706600A36F54 /* Views */,
+				044BFF3A1EA34F27002FDD18 /* Tools */,
+				044BFF4E1EA3AC41002FDD18 /* TestVC */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		04A2C5D91E9A706600A36F54 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				04A2C5DA1E9A706600A36F54 /* ViewController.h */,
-				04A2C5DB1E9A706600A36F54 /* ViewController.m */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		04A2C5DC1E9A706600A36F54 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		04A2C5DD1E9A706600A36F54 /* Others */ = {
@@ -112,11 +211,21 @@
 			path = Others;
 			sourceTree = "<group>";
 		};
-		04A2C5E01E9A706600A36F54 /* Views */ = {
+		841DCE85CAFD8493475B7B57 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				F43FB3B55575F9C3476A8F23 /* Pods-01-modularization.debug.xcconfig */,
+				54D4F9F8EC216D4B303180C2 /* Pods-01-modularization.release.xcconfig */,
 			);
-			path = Views;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F0589CA4949B96F52F949F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5C23866D3A46567DB4CA550 /* libPods-01-modularization.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,9 +235,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04A2C5D51E9A6FFF00A36F54 /* Build configuration list for PBXNativeTarget "01-modularization" */;
 			buildPhases = (
+				E29BDA9CF8826F3DF35DE6BD /* [CP] Check Pods Manifest.lock */,
 				04A2C5BA1E9A6FFF00A36F54 /* Sources */,
 				04A2C5BB1E9A6FFF00A36F54 /* Frameworks */,
 				04A2C5BC1E9A6FFF00A36F54 /* Resources */,
+				9E9EFD7ADF71D3CACDC242EC /* [CP] Embed Pods Frameworks */,
+				CF3C3D59074672AF873E7438 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,6 +257,7 @@
 		04A2C5B61E9A6FFF00A36F54 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = Revan;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Revan;
 				TargetAttributes = {
@@ -179,30 +292,87 @@
 			files = (
 				04A2C5D11E9A6FFF00A36F54 /* LaunchScreen.storyboard in Resources */,
 				04A2C5CE1E9A6FFF00A36F54 /* Assets.xcassets in Resources */,
-				04A2C5CC1E9A6FFF00A36F54 /* Main.storyboard in Resources */,
+				0424E22C1EA2798A00E08840 /* RevanMiddleView.xib in Resources */,
+				044BFF541EA3AE15002FDD18 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9E9EFD7ADF71D3CACDC242EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-01-modularization/Pods-01-modularization-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF3C3D59074672AF873E7438 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-01-modularization/Pods-01-modularization-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E29BDA9CF8826F3DF35DE6BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04A2C5BA1E9A6FFF00A36F54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04A2C5E11E9A706600A36F54 /* ViewController.m in Sources */,
+				044BFF431EA360DA002FDD18 /* UIView+RevanView.m in Sources */,
+				044BFF461EA36A88002FDD18 /* RevanNavigationBar.m in Sources */,
+				0424E22A1EA2795900E08840 /* RevanMiddleView.m in Sources */,
+				044BFF491EA38A45002FDD18 /* RevanNavigationViewController.m in Sources */,
+				044BFF511EA3AC64002FDD18 /* RevanTestViewController.m in Sources */,
 				04A2C5C31E9A6FFF00A36F54 /* main.m in Sources */,
 				04A2C5E21E9A706600A36F54 /* AppDelegate.m in Sources */,
+				044BFF3F1EA34FC5002FDD18 /* CALayer+RevanLayerAimate.m in Sources */,
+				044BFF4C1EA38D5D002FDD18 /* UIImage+RevanImage.m in Sources */,
+				0424E2231EA2757800E08840 /* RevanTabBarController.m in Sources */,
+				0424E2271EA275F900E08840 /* RevanTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		04A2C5CA1E9A6FFF00A36F54 /* Main.storyboard */ = {
+		044BFF521EA3AE15002FDD18 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				04A2C5CB1E9A6FFF00A36F54 /* Base */,
+				044BFF531EA3AE15002FDD18 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -310,6 +480,7 @@
 		};
 		04A2C5D61E9A6FFF00A36F54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F43FB3B55575F9C3476A8F23 /* Pods-01-modularization.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -323,6 +494,7 @@
 		};
 		04A2C5D71E9A6FFF00A36F54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54D4F9F8EC216D4B303180C2 /* Pods-01-modularization.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -353,6 +525,7 @@
 				04A2C5D71E9A6FFF00A36F54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
