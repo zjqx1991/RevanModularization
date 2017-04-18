@@ -1,0 +1,26 @@
+{
+  "name": "RevanBaseModule",
+  "version": "0.0.1",
+  "summary": "RevanBaseModule.",
+  "description": "RevanBaseModule.分类、工具类等等",
+  "homepage": "http://EXAMPLE/RevanBaseModule",
+  "license": "MIT",
+  "authors": {
+    "紫荆秋雪": "zjqx1991@163.com"
+  },
+  "source": {
+    "git": "",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "Classes",
+    "Classes/**/*.{h,m}"
+  ],
+  "exclude_files": "Classes/Exclude",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

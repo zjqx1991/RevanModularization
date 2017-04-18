@@ -11,18 +11,15 @@
 		0424E2271EA275F900E08840 /* RevanTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0424E2261EA275F900E08840 /* RevanTabBar.m */; };
 		0424E22A1EA2795900E08840 /* RevanMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0424E2291EA2795900E08840 /* RevanMiddleView.m */; };
 		0424E22C1EA2798A00E08840 /* RevanMiddleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0424E22B1EA2798A00E08840 /* RevanMiddleView.xib */; };
-		044BFF3F1EA34FC5002FDD18 /* CALayer+RevanLayerAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 044BFF3E1EA34FC5002FDD18 /* CALayer+RevanLayerAimate.m */; };
-		044BFF431EA360DA002FDD18 /* UIView+RevanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044BFF421EA360DA002FDD18 /* UIView+RevanView.m */; };
 		044BFF461EA36A88002FDD18 /* RevanNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 044BFF451EA36A88002FDD18 /* RevanNavigationBar.m */; };
 		044BFF491EA38A45002FDD18 /* RevanNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044BFF481EA38A45002FDD18 /* RevanNavigationViewController.m */; };
-		044BFF4C1EA38D5D002FDD18 /* UIImage+RevanImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 044BFF4B1EA38D5D002FDD18 /* UIImage+RevanImage.m */; };
 		044BFF511EA3AC64002FDD18 /* RevanTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044BFF501EA3AC64002FDD18 /* RevanTestViewController.m */; };
 		044BFF541EA3AE15002FDD18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044BFF521EA3AE15002FDD18 /* Main.storyboard */; };
 		04A2C5C31E9A6FFF00A36F54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A2C5C21E9A6FFF00A36F54 /* main.m */; };
 		04A2C5CE1E9A6FFF00A36F54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A2C5CD1E9A6FFF00A36F54 /* Assets.xcassets */; };
 		04A2C5D11E9A6FFF00A36F54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A2C5CF1E9A6FFF00A36F54 /* LaunchScreen.storyboard */; };
 		04A2C5E21E9A706600A36F54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A2C5DF1E9A706600A36F54 /* AppDelegate.m */; };
-		B4C57189D2C1717AF4E39527 /* libPods-01-modularization.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C23866D3A46567DB4CA550 /* libPods-01-modularization.a */; };
+		9F0DC1B61E69C5268B6E3883 /* Pods_01_modularization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8040DDB7421F92FD6CE23D9 /* Pods_01_modularization.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,7 +52,7 @@
 		04A2C5DE1E9A706600A36F54 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04A2C5DF1E9A706600A36F54 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		54D4F9F8EC216D4B303180C2 /* Pods-01-modularization.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01-modularization.release.xcconfig"; path = "Pods/Target Support Files/Pods-01-modularization/Pods-01-modularization.release.xcconfig"; sourceTree = "<group>"; };
-		D5C23866D3A46567DB4CA550 /* libPods-01-modularization.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-01-modularization.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8040DDB7421F92FD6CE23D9 /* Pods_01_modularization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_01_modularization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F43FB3B55575F9C3476A8F23 /* Pods-01-modularization.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01-modularization.debug.xcconfig"; path = "Pods/Target Support Files/Pods-01-modularization/Pods-01-modularization.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4C57189D2C1717AF4E39527 /* libPods-01-modularization.a in Frameworks */,
+				9F0DC1B61E69C5268B6E3883 /* Pods_01_modularization.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,7 +220,7 @@
 		F0589CA4949B96F52F949F09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D5C23866D3A46567DB4CA550 /* libPods-01-modularization.a */,
+				A8040DDB7421F92FD6CE23D9 /* Pods_01_modularization.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -352,15 +349,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				044BFF431EA360DA002FDD18 /* UIView+RevanView.m in Sources */,
 				044BFF461EA36A88002FDD18 /* RevanNavigationBar.m in Sources */,
 				0424E22A1EA2795900E08840 /* RevanMiddleView.m in Sources */,
 				044BFF491EA38A45002FDD18 /* RevanNavigationViewController.m in Sources */,
 				044BFF511EA3AC64002FDD18 /* RevanTestViewController.m in Sources */,
 				04A2C5C31E9A6FFF00A36F54 /* main.m in Sources */,
 				04A2C5E21E9A706600A36F54 /* AppDelegate.m in Sources */,
-				044BFF3F1EA34FC5002FDD18 /* CALayer+RevanLayerAimate.m in Sources */,
-				044BFF4C1EA38D5D002FDD18 /* UIImage+RevanImage.m in Sources */,
 				0424E2231EA2757800E08840 /* RevanTabBarController.m in Sources */,
 				0424E2271EA275F900E08840 /* RevanTabBar.m in Sources */,
 			);
@@ -429,7 +423,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -471,7 +465,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -485,7 +479,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "01-modularization/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.zjqxRevan.-1-modularization";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -499,7 +493,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "01-modularization/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.zjqxRevan.-1-modularization";
 				PRODUCT_NAME = "$(TARGET_NAME)";

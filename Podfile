@@ -1,10 +1,6 @@
-# Uncomment this line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '8.0'
 
 target '01-modularization' do
-  # Uncomment this line if you're using Swift or would like to use dynamic frameworks
-  # use_frameworks!
-
-  # Pods for 01-modularization
-
+  use_frameworks!
+  pod 'RevanBaseModule', :path => '../Lib/RevanBaseModule'
 end
